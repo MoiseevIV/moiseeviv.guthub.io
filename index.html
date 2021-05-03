@@ -1,49 +1,109 @@
 <! Doctype html>
-  <html><div style="html: url(https://i.ytimg.com/vi/qJUdPJm0Aps/maxresdefault.jpg);">
+  <html>
   <head>
     <meta charset="utf-8">
     <title> Мой первый сайт</title>
-<style>
-.light {
-  color: #eff; 
-  font-size: 20px; 
-  cursor: pointer; 
-  font-family: 'Helvetica';
-  display: inline-block; margin: 20px;
+	<style>
+	body {
+		background: #000 url(https://img5.goodfon.ru/wallpaper/nbig/6/1b/synth-retrowave-synthwave-fon-new-retro-wave-sintveiv-ret-15.jpg); /* Фоновый цвет и фоновый рисунок*/
+		color: #fff; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+		background-size: cover;/* Изображение во весь размер сайта */
+	}
+	.sign-wrap-4 {
+    text-align: center;
+    padding: 60px 20px;
 }
+.sign-wrap-4 .sign_word {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #BFE2FF, 0 0 0.5em #BFE2FF, 0 0 0.1em #BFE2FF;
+}
+.sign-wrap-4 .sign_word span {
+    animation: neon-4 linear infinite 2s;
+}
+@keyframes neon-4 {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    79%{
+        color: #0b3960;
+    }
+    80% {
+        text-shadow: none;
+    }
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    82% {
+        color: #0b3960;
+        text-shadow: none;
+    }
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    92% {
+        color: #0b3960;
+        text-shadow: none;
+    }
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+}
+<!-- Неоновые букцы-->
+.list-notebook {
+  width: 90px;
+  margin: 0 auto;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+<!--Изображение чтобы не изменялось в размерах при открытии-->
+   </style>
+ </head>
+    <body>
+	<p><center><h1><div class="sign-wrap-4">
+    <div class="sign_word">Вкл<span>юч</span>и <span>дл</span>я <span>н</span>ачала <span>музы</span>ку</div>
+</div></center></h1></center></p>
+	<p><center><audio controls>
+	<source src="C:\Users\Ivan\Desktop\Сайт 1\TRAPPIN IN ＰＡＲＡＤＩＳＥ  50.mp3">
+	</center></audio>
+	<p><center><h1>Коротко обо мне</h1></center></p> 
+	<center><h3>Меня зовут Иван. Я твой будующий любимый тестер. Моей последней должностью было "Менеджер региональных продаж". Скучная работа и много не адекватных людей. Но душа всега хотела некоего качества. И что для этого подоходит? Верно! QA-инжинер! </h3></center>
+	<p><center><div class="sign-wrap-4">
+    <div class="sign_word">П<span>ос</span>мот<span>ри</span> н<span>а</span>меня</div>
+</div></center></p> 
+<center><img src="C:\Users\Ivan\Desktop\Сайт 1\Моё фото.jpg"></center>
+<p><center><div class="sign-wrap-4">
+    <div class="sign_word">А <span>ч</span>то <span>я</span> уме<span>ю</span>?</div>
+</div></center></p> 
+<ul class="list-notebook">
+<img src="https://media1.giphy.com/media/10FwycrnAkpshW/giphy.gif" alt="я джифка" align="right"> <!--Поставить гифку справа от текста-->
+        <li><h2><span style="background: LightSeaGreen"> Основы HTML и CSS </span></h2></li>
+        <li><h2><span style="background: LightSeaGreen">Система контроля версий (GIT)</span></h2></li>
+        <li><h2><span style="background: LightSeaGreen"> Составление тест-кейсов в TestRail </span></h2></li>
+        <li><h2><span style="background: LightSeaGreen"> Работа с багтрекинговыми системами Jira и Youtrack </span></h2></li>
+        <li><h2><span style="background: LightSeaGreen"> Понимание принципов работы API </span></h2></li>
+		<li><h2><span style="background: LightSeaGreen"> Понимание принципов работы Idea </span></h2></li>
+        </ul>
+		<!--Выделили цветом-->
+		<p><center><div class="sign-wrap-4">
+    <div class="sign_word">Оп<span>а</span>! Серт<span>ифи</span>каты <span>по</span>дъех<span>ал</span>и?</div>
+</div></center></p> 
+<center><img src="C:\Users\Ivan\Desktop\Сайт 1\Сертификат HTML и CSS.jpg" width="800px" height="600px" auto;class="responsive"></center>
+	<p><center><div class="sign-wrap-4">
+    <div class="sign_word"><a href="https://novosibirsk.hh.ru/resume/4ecc1c3dff08dcf6e20039ed1f427278787943">Ска<span>ча</span>ть полно<span>е</span> <span>р</span>езю<span>ме</span></div>
+</a></div></center></p> 
 
-.light:hover {
-  color: #aff;
-  text-shadow: 
-     5px  5px 10px #045acf,  /*  Нижний - Справа */
-     5px -5px 10px #045acf,  /*  Нижний - Слева  */
-    -5px  5px 10px #045acf,  /* Верхний - Справа */
-    -5px -5px 10px #045acf;  /* Верхний - Слева  */
-}
-
-	.fon_scroll {
-margin:0 auto;
-width:700px;
-height:800px;
-padding:0px;
-background-color:#ffffff;
-background-image:url(https://img5.goodfon.ru/original/1920x1080/d/3e/synth-retrowave-synthwave-new-retro-wave-sintveiv-retrove-10.jpg);
-background-repeat:no-repeat;
-background-attachment:fixed;
-background-position:100%;
-}
-</style>
-  </head>
-    <body><div class="fon_scroll">
-	<!-- Сделали фоновое изображение -->
-<article align="center">
-   <div class="light"><h1><center><span style=" color: firebrick">Включи музыку для настроения</span></center></h1></div>
-<div class="block"> 
-<article align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/INSsZk-5Pco?start=2?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay="1"; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p><a><div class="light"><font color="red"><h1>Привет! Это я! </h1</font></div></a></p>
-      <!--Дата 15.11.2020 Моисеев Иван-->
-	<p><img src="https://hhcdn.ru/photo/557463054.jpeg?t=1619931989&h=FrMgxAey2efDKOCEstmbBg" alt="Письма мастера дзен"></p>
-	</div>
 	</body>
   </html>
